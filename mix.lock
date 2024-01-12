@@ -1,5 +1,7 @@
 %{
   "elixir_make": {:hex, :elixir_make, "0.7.7", "7128c60c2476019ed978210c245badf08b03dbec4f24d05790ef791da11aa17c", [:mix], [{:castore, "~> 0.1 or ~> 1.0", [hex: :castore, repo: "hexpm", optional: true]}], "hexpm", "5bc19fff950fad52bbe5f211b12db9ec82c6b34a9647da0c2224b8b8464c7e6c"},
+  "ex_tdlib": {:git, "https://github.com/prtngn/ex_tdlib.git", "6f95158f61f5c73184c23995488b1a957ef352f6", []},
+  "jason": {:hex, :jason, "1.4.1", "af1504e35f629ddcdd6addb3513c3853991f694921b1b9368b0bd32beb9f1b63", [:mix], [{:decimal, "~> 1.0 or ~> 2.0", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm", "fbb01ecdfd565b56261302f7e1fcc27c4fb8f32d56eab74db621fc154604a7a1"},
   "poison": {:hex, :poison, "5.0.0", "d2b54589ab4157bbb82ec2050757779bfed724463a544b6e20d79855a9e43b24", [:mix], [{:decimal, "~> 2.0", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm", "11dc6117c501b80c62a7594f941d043982a1bd05a1184280c0d9166eb4d8d3fc"},
   "styler": {:hex, :styler, "0.11.1", "1bf6a13f49c00c4e77855cd2dbd6fe5518b6bfb977e76fdb2fa088d64f839194", [:mix], [], "hexpm", "8d995b3e7a787645a09a9a7382e17fb99d4bb63f4cf8390a2aaf0afa8d4b2f7d"},
   "tdlib": {:git, "https://github.com/prtngn/ex_tdlib", "643c63c82ac499097c50f6015f04c31c6d0915e2", [branch: "nightly"]},

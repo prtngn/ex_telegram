@@ -22,7 +22,7 @@ defmodule ExTelegram.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:tdlib, git: "https://github.com/prtngn/ex_tdlib", branch: "nightly"},
+      {:ex_tdlib, git: "https://github.com/prtngn/ex_tdlib.git"},
       {:styler, "~> 0.10", only: [:dev, :test], runtime: false}
     ]
   end
